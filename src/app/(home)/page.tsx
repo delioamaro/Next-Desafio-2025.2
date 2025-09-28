@@ -1,7 +1,6 @@
-import BestAlbums from "../components/bestAlbums";
-import HeroSection from "../components/hero-section";
-import SobreAlbumteria from "../components/sobreAlbumteria";
-
+import BestAlbums from "@/src/components/bestAlbums";
+import HeroSection from "@/src/components/hero-section";
+import SobreAlbumteria from "@/src/components/sobreAlbumteria";
 
 export default function Home() {
   return (

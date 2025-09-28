@@ -7,8 +7,8 @@ import { LogIn, LogInIcon, Menu, Search, ShoppingCart, UserRound, X } from "luci
 
 const links = [
     {href: '/catalogo', label: "Catálogo"},
-    {href: '/gerenciamentoProdutos', label: "Gerenciamento"},
-    {href: '/contato', label: "Contato"},
+    {href: '/admin', label: "Gerenciamento"},
+    {href: '/sobre', label: "Contato"},
     {href: '/login', label: "Login"},
     {href: '/carrinho', label: "Carrinho"}
 ]
