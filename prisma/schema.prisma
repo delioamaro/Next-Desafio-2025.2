@@ -13,3 +13,19 @@ datasource db {
   provider = "postgresql"
   url      = env("DATABASE_URL")
 }
+
+model Category {
+  id Int @id @default(autoincrement())
+  name String @unique
+  post Post[]
+}
+
+model Post {
+  id Int @id @default(autoincrement())
+  title String @unique
+  content String
+  image String
+  published Boolean @default(false)
+  categories Category[]
+  price Float
+  }
