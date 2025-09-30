@@ -47,7 +47,7 @@ export default function ManageCategoriesTable() {
                             <th className="px-6 py-5 font-medium">
                                 -----
                             </th>
-                            <th className="px-6 py-5 flex justify-between">
+                            <th className="px-6 py-5 flex justify-between cursor-default">
                                 <VisualizarButton id={1} />
                                 <EditarButton id={1}/>
                                 <DeletarButton id={1}/>
