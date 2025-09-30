@@ -25,8 +25,10 @@ export function EditarButton({id} : {id:number}) {
 
 export function DeletarButton({id} : {id:number}) {
     return(
-            <button className="text-texto hover:underline cursor-pointer">
-                <Trash />
-            </button>
+            <Link href={`/admin/gerenciamento/excluir`}>
+                <button className="text-texto hover:underline cursor-pointer">
+                    <Trash />
+                </button>
+            </Link>
     )
 }
