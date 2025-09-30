@@ -4,7 +4,7 @@ import Link from "next/link";
 export default function PostCard() {
     return(
         <Link
-        href={'/'} 
+        href={'/post/1'} 
         className="group">
             <div className=" bg-white flex group-hover:sadow-2xl rounded-xl duration-300">
                 <div className="flex w-full flex-col rounde-xl shadow-md">

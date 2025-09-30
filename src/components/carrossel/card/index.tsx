@@ -3,7 +3,7 @@ import Link from "next/link";
 
 export default function CarroselCard() {
     return(
-        <Link href={'/'} className="group">
+        <Link href={'/post/1'} className="group">
             <div className=" bg-white flex group-hover:sadow-2xl rounded-xl duration-300 shadow-md">
                 <div className="flex w-full flex-col rounde-xl shadow-md">
                     <div className="overflow-hidden rounded-t-xl text-texto">
